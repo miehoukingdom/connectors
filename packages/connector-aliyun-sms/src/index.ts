@@ -39,7 +39,7 @@ const sendMessage =
           AccessKeyId: accessKeyId,
           PhoneNumbers: to,
           SignName: signName,
-          TemplateCode: template.templateCode,
+          TemplateCode: to.startsWith('86') ? template.templateCode : template.intlTemplateCode,
           TemplateParam: JSON.stringify(payload),
         },
         accessKeySecret

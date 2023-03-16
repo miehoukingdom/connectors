@@ -76,22 +76,27 @@ export const defaultMetadata: ConnectorMetadata = {
         {
           usageType: 'SignIn',
           templateCode: '<template-code>',
+          intlTemplateCode: '<template-code>',
         },
         {
           usageType: 'Register',
           templateCode: '<template-code>',
+          intlTemplateCode: '<template-code>',
         },
         {
           usageType: 'ForgotPassword',
           templateCode: '<template-code>',
+          intlTemplateCode: '<template-code>',
         },
         {
           usageType: 'Generic',
           templateCode: '<template-code>',
+          intlTemplateCode: '<template-code>',
         },
         {
           usageType: 'Test',
           templateCode: '<template-code>',
+          intlTemplateCode: '<template-code>',
         },
       ],
     },
